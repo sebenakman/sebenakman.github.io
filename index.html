@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Times New Roman -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<header>
+  <h1>Seben Akman</h1>
+  <p class="tagline">a An aspiring researcher, storyteller, lover of all things sad and cryptic </p>
+</header>
+
+<!-- ABOUT -->
+
+<section>
+  <h2>about</h2>
+  <p>
+    I’m interested in music, filmmaking, and research.
+    This space is part diary, part archive, part experiment.
+  </p>
+</section>
+
+<!-- CV -->
+
+<section>
+  <h2>cv</h2>
+  <p><strong>education</strong> - University of Glasgow Computing Science BSc </p>
+  <p><strong>experience</strong> — GLASense </p>
+</section>
+
+<!-- MUSIC -->
+
+<section>
+  <h2>music notes</h2>
+
+  <div class="review">
+    <h3> Nothing’s About to Happen to Me by Mitski /h3>
+    <p class="meta"> folk / singer-songwriter 9.0</p>
+</p>
+    <section>
+  <h2>music notes</h2>
+
+  <div class="review">
+
+```
+<h3>Nothing’s About to Happen to Me — Mitski</h3>
+<p class="meta">introspective / liminal / haunting</p>
+
+<p>
+<section>
+  <h2>music notes</h2>
+
+  <div class="review">
+
+```
+<h3>Nothing’s About to Happen to Me</h3>
+
+<p>
+“Nothing’s About to Happen to Me” reads less like an album and more like the confessions and secrets of a dangerous mind too numb to explode. The vocals have such space around them that they float around the record like one of the many clouds in gloomy weather. 
+<p>
+
+<p>
+The album starts with country and Americana influences, “in a lake,” that reminds me of the play of Marina Carr, The Mai, where the lake functions as a liminal and haunting space: the space between the known and the unknown… Between destruction and escape… It is quite significant that the album starts with this liminal image to later touch on the themes of memory, consciousness, who gets to narrate and own my life and form my “legacy” after I’m gone, and whether this is even important in the agency of death - in other words, “nothing”... There is some feeling of a resolution in the first track where the instrumentation rises like currents - the idea of her, her memory, washes over her corporeality, her self. So, she goes to a big city where she can be no one. 
+<p>
+
+<p>
+“Where’s my phone?” sees her in an apartment in a big city, looking for her phone. In the age of submission to capitalism, she yearns for a mind “that’s like a clear glass with nothing going on.” In the madhouse we call home, under the regime of skyrocketing ADHD diagnoses and the marketing of capitalism as freedom, she finishes up the pain with a touch of nonchalant obsession with her cellular device. In “Cats” she yearns to be independent and free from her codependency with artificial delights, just like cats. “If I Leave” is the track with the least amount of instruments making the track quite lonesome. She sings about the insignificance of the space we take in each other’s lives, but the significance of our deep desire to be known by someone and the formation of our “self” under their very weary consciousness: “if I leave, somebody else will love you [...] but I’ve only let you know.” 
+<p>
+
+<p>
+I start to notice the very pattern of inquiry of what will become of you when you are gone in this album with “Dead Women.” As someone who dreams of becoming “one for some” it is interesting to think about my own legacy and narrativization of my life. The track talks about the misuse of this particularly as a woman, but I still need you to decode me and tell me my story after I’m gone. I remember in high school when one of my classmates talked about how odd it is to want to know someone with their whole transparency and opaqueness in literature class. I also remember telling my filmmaker friends to make a film about me after I am no longer here to tell my story. 
+<p>
+
+<p>
+“Instead of there” asks me a very undearing question: who are you without your misery? As a creative, I always found joy to be shallow and pain to be rubbed out from the depths of yourself. I’ve always had this profound sadness within me and I still think I wouldn’t be who I am without it. “I’ll Change for You” is a bossa nova track that reminds me of the relationship Mitski has with her listener - her legacy makers. Is it necessarily a bad thing to want to shapeshift and perform for people who are eager to see? Isn’t it worse when you have to ask yourself “I’m here my beloved reader, the question is where you are?” 
+<p>
+
+<p>
+In “That White Cat” we see Mitski at a higher register and not feeling at home in her own home. You’re the tenant below for there are “ghosts on the roof.” I understand the last three songs to flow so beautifully from one to another. “That white cat” is the witness of your life. It keeps you alive. Then, comes the Charon that transports you from the world of leaving. It hits like a "lightning" after you’re gone that death is not the unknown, it is the only truth you’ve ever known. Our humanity that we held on to so tightly all along is the secrecy. The album ends after “polo” with no repetition of the chorus or instrumental further emphasizing the lack of importance and nothingness of your humanity, all the questions and contemplations were just a dangerous game. No legacy, no release, no final song, no rejoice. The album has happened to all of us, yet I managed to talk about myself and myself only in these paragraphs. It is at this point I understand there is no witness, we are all here to witness ourselves reflecting through others.   
+<p>
+
+
+  </div>
+</section>
+
+
+  </div>
+
+</section>
+
+
+
+
+  </div>
+
+</section>
+
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section>
+  <h2>creative projects</h2>
+
+  <div class="project">
+    <h3>future project</h3>
+    <p> This doesn’t exist yet, but it will.</p>
+  </div>
+
+</section>
+<!-- FOOTER -->
+
+<footer>
+  <p>say hi → ipromiseyouthisismine@email.com</p>
+</footer>
+
+<!-- DONKEY -->
+
+<img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" id="donkey">
+
+<!-- SCRIPT -->
+
+<script>
+
+// scroll animation
+const sections = document.querySelectorAll("section");
+
+const reveal = () => {
+  sections.forEach(sec => {
+    const top = sec.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) {
+      sec.classList.add("visible");
+    }
+  });
+};
+
+window.addEventListener("scroll", reveal);
+reveal();
+
+// donkey chaos
+const donkey = document.getElementById("donkey");
+
+setInterval(() => {
+  donkey.style.top = Math.random() * 80 + "%";
+  donkey.style.left = Math.random() * 80 + "%";
+}, 3000);
+
+// donkey click
+donkey.onclick = () => {
+  const messages = [
+    "I'm makin' waffles 🧇",
+    "You found me.",
+    "This site is weird. I like it.",
+    "Play something loud."
+  ];
+  alert(messages[Math.floor(Math.random() * messages.length)]);
+};
+
+</script>
+
+</body>
+</html>
