@@ -4,10 +4,10 @@ body {
   font-family: "Times New Roman", serif;
 
   display: flex;
-  justify-content: center;   /* centers horizontally */
+  justify-content: center;   
 }
 
-/* this is your "paper" */
+
 .page {
   max-width: 700px;
   width: 100%;
@@ -15,7 +15,7 @@ body {
   margin-bottom: 80px;
   padding: 40px;
 
-  background: white;
+  background: light blue;
 }
 #donkey {
   position: fixed;
