@@ -1,62 +1,26 @@
 body {
   margin: 0;
   background: #f4f1ec;
-  color: #111;
   font-family: "Times New Roman", serif;
+
+  display: flex;
+  justify-content: center;   /* centers horizontally */
 }
 
-/* PAGE CONTAINER (like a printed sheet) */
+/* this is your "paper" */
 .page {
   max-width: 700px;
-  margin: 60px auto;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
   padding: 40px;
+
   background: white;
 }
-
-/* HEADER */
-header {
-  margin-bottom: 60px;
-}
-
-h1 {
-  font-size: 2.5rem;
-  margin: 0;
-}
-
-.tagline {
-  font-size: 0.9rem;
-  color: #666;
-}
-
-/* SECTIONS */
-section {
-  margin-bottom: 60px;
-}
-
-h2 {
-  font-size: 1.2rem;
-  text-transform: lowercase;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
-}
-
-/* ESSAY TEXT */
-.essay {
-  line-height: 1.8;
-  font-size: 1rem;
-}
-
-/* FOOTER */
-footer {
-  font-size: 0.8rem;
-  color: #777;
-}
-
-/* DONKEY */
 #donkey {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 100px;
+  bottom: 30px;
+  right: 30px;
+  width: 80px;
+  opacity: 0.7;
 }
